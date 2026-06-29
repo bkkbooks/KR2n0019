@@ -1,0 +1,112 @@
+canonical_identifier: bkk:krp/KR2n0019/v1
+canonical_location: https://kanripo.org/bkk/KR2n0019/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 絳帖平
+  date: '2015-08-24 22:54:26.487492'
+  source:
+    repository: kanripo
+    path: KR2n0019
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2n0019_000.yaml, hash: 'sha256:54586c7d52e65cba1e9ed83890611df393b547f3ed38a760d202f0a4d76ee1d1'}
+  - {seq: 1, filename: KR2n0019_001.yaml, hash: 'sha256:aa1db19875462b7020fc7a9d8a5233f9278d25bf7f192e15691cccdce450295f'}
+  - {seq: 2, filename: KR2n0019_002.yaml, hash: 'sha256:838051613f4747b38b44483957bf8f5731dc96acc2450d861497914b8a0ebcbd'}
+  - {seq: 3, filename: KR2n0019_003.yaml, hash: 'sha256:a114dbe22243a91183a4a41de79605085509d98348054c167fd499acd8b2411c'}
+  - {seq: 4, filename: KR2n0019_004.yaml, hash: 'sha256:45b8d01842aaa9ebc86c2ef626f924337a1aec75d81186e46dca5a5ca5af47f5'}
+  - {seq: 5, filename: KR2n0019_005.yaml, hash: 'sha256:82c4960fb2c5dd6f94176e18f66e12255b73411e437db5c93b91cc552566b6a9'}
+  - {seq: 6, filename: KR2n0019_006.yaml, hash: 'sha256:d84b89d839479efff294b984a23f87473c44fcf695d2f529c5a7c7cd10e2731d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2n0019_000.markers.yaml, hash: 'sha256:e0cde825bc4d4a96a9fc0734b65443b8b82b919169d7c64b0c40b8ab48d47409'}
+  - {seq: 1, role: markers, filename: assets/KR2n0019_001.markers.yaml, hash: 'sha256:254676cee9f45a8802697177f03cd31c04b8a761299b69f950fa91da129e8831'}
+  - {seq: 2, role: markers, filename: assets/KR2n0019_002.markers.yaml, hash: 'sha256:a044e60ef8a0ea68b13c0ec3718602b2f86ef679d039bcd1133214f94d3522d7'}
+  - {seq: 3, role: markers, filename: assets/KR2n0019_003.markers.yaml, hash: 'sha256:1a08cf25a8dd4cd4654045d8cba54f84150311608f0938d5a195e43928b757fc'}
+  - {seq: 4, role: markers, filename: assets/KR2n0019_004.markers.yaml, hash: 'sha256:87e63f378529289d7bce91c9cd84c963d4d2290adb6e2ade6d5513f517ee4a64'}
+  - {seq: 5, role: markers, filename: assets/KR2n0019_005.markers.yaml, hash: 'sha256:050e103fcd618adfba39a944f9dcd2b9963633e1573dc0634f0b230f04af4f2e'}
+  - {seq: 6, role: markers, filename: assets/KR2n0019_006.markers.yaml, hash: 'sha256:b6402025211dd303026092d55521dc36f69917622f725a2a74af40af3f3610ef'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2n0019_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 378
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2n0019_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3789
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2n0019_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 2630
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2n0019_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 2881
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR2n0019_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 2619
+  label: 卷四
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR2n0019_WYG_005-1a
+    span:
+    - body
+    - 0
+    - 2077
+  label: 卷五
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR2n0019_WYG_006-1a
+    span:
+    - body
+    - 0
+    - 2791
+  label: 卷六
+  type: section
+  level: 1
+hash: sha256:ba9d51a0cfe63db9109e6da9047768281c34e8e2ae5814141accae0636cc6cf3
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
